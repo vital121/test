@@ -5,5 +5,5 @@ extensions igbinary.so  ioncube.so  maxminddb.so  mcrypt.so  opcache.a  opcache.
 found in extensions.tgz
 put config.ini in /home/xui/config/config.ini<br>
 
-set mysql username and password in config.ini<br>
+set mysql username and password db name in config.ini<br>
 
