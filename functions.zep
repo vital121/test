@@ -787,8 +787,8 @@ class Functions {
 			}
 			else
 			{
-				print_r(self::license);
-				//return true;
+				//print_r("self::license" . self::license);
+				//print_r("data:");
 				//print_r(data);
 				self::loggerrr4("verifyLicense", [self::seed, self::HOME . self::LICENSE . ".new"]," data " . json_encode(data));
 				if data["license"] === "Connection: close" {
@@ -802,6 +802,9 @@ class Functions {
 						//print_r(data);
 					}
 				}
+				//print_r("self::license" . self::license);
+				print_r(self::license);
+				//return true;
 				print_r(data);
 				if self::license === data["license"]{
 					if data["next_check_date"] > time() {
